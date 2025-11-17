@@ -23,8 +23,7 @@ const Header = () => {
 
         <nav className={`header-nav ${isMenuOpen ? 'open' : ''}`}>
           <a href="#home" className="nav-link">Início</a>
-          <a href="#products" className="nav-link">Produtos</a>
-          <a href="#pricing" className="nav-link">Preços</a>
+          <button className="btn-primary-header">Falar com um consultor</button>
         </nav>
       </div>
     </header>

@@ -55,6 +55,23 @@
   color: var(--color-gray-900);
 }
 
+.btn-primary-header {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: var(--color-primary-600);
+  color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.btn-primary-header:hover {
+  background: var(--color-primary-700);
+}
+
 @media (max-width: 768px) {
   .mobile-menu-button {
     display: block;
@@ -87,5 +104,11 @@
 
   .nav-link:last-child {
     border-bottom: none;
+  }
+
+  .btn-primary-header {
+    width: calc(100% - 40px);
+    margin: 16px var(--container-padding);
+    justify-content: center;
   }
 }

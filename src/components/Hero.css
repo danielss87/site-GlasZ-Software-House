@@ -93,6 +93,7 @@
   background: var(--color-white);
   color: var(--color-gray-700);
   border: 1px solid var(--color-gray-300);
+  display: none;
 }
 
 .btn-secondary:hover {
@@ -102,6 +103,7 @@
 .hero-image {
   width: 100%;
   max-width: 1024px;
+  display: none;
 }
 
 .dashboard-mockup {
