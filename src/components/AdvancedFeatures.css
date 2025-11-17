@@ -1,0 +1,266 @@
+.advanced-features {
+  width: 100%;
+  padding: 96px 0;
+  background: var(--color-white);
+}
+
+.advanced-features-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.advanced-features-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.advanced-features-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-gray-900);
+  margin-bottom: 20px;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advanced-features-description {
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--color-gray-600);
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.advanced-features-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.mockups-section {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+}
+
+.mockup-device {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.mockup-device.mobile {
+  width: 280px;
+  border-radius: 32px;
+  border-width: 8px;
+  border-color: var(--color-gray-900);
+}
+
+.device-header {
+  background: var(--color-gray-900);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.device-notch {
+  width: 100px;
+  height: 20px;
+  background: var(--color-gray-900);
+  border-radius: 0 0 16px 16px;
+}
+
+.mockup-device.desktop {
+  width: 450px;
+}
+
+.desktop-header {
+  background: var(--color-gray-100);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.desktop-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.desktop-dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-gray-300);
+}
+
+.device-content {
+  padding: 24px;
+  background: var(--color-white);
+}
+
+.mockup-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mockup-list-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.mockup-avatar-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-gray-200);
+  flex-shrink: 0;
+}
+
+.mockup-text-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mockup-text-line {
+  height: 8px;
+  background: var(--color-gray-200);
+  border-radius: 4px;
+}
+
+.mockup-text-line.short {
+  width: 60%;
+}
+
+.desktop-sidebar {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-item {
+  height: 40px;
+  background: var(--color-gray-100);
+  border-radius: 6px;
+}
+
+.desktop-main {
+  flex: 1;
+  padding-left: 16px;
+}
+
+.desktop-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.desktop-row {
+  height: 50px;
+  background: var(--color-gray-50);
+  border-radius: 8px;
+}
+
+.device-content {
+  display: flex;
+  gap: 16px;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.feature-item {
+  display: flex;
+  gap: 16px;
+}
+
+.feature-item-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid var(--color-gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary-600);
+  flex-shrink: 0;
+}
+
+.feature-item-content {
+  flex: 1;
+}
+
+.feature-item-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-gray-900);
+  margin-bottom: 8px;
+}
+
+.feature-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-gray-600);
+}
+
+@media (max-width: 1024px) {
+  .advanced-features-content {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .mockups-section {
+    justify-content: center;
+  }
+
+  .mockup-device.desktop {
+    width: 380px;
+  }
+
+  .mockup-device.mobile {
+    width: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advanced-features {
+    padding: 64px 0;
+  }
+
+  .advanced-features-title {
+    font-size: 28px;
+  }
+
+  .advanced-features-description {
+    font-size: 18px;
+  }
+
+  .mockups-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mockup-device.desktop {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .mockup-device.mobile {
+    width: 220px;
+  }
+}
