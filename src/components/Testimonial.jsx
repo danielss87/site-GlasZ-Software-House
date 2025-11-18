@@ -11,7 +11,7 @@ const Testimonial = () => {
           <span className="logo-company">Óticas Armazém</span>
         </div>
         <blockquote className="testimonial-quote">
-          "As automações criadas nos permitiu ter um retorno sobre investimento já nos primeiros 15 dias"
+          "As automações criadas nos permitiram ter um retorno sobre investimento já nos primeiros 15 dias"
         </blockquote>
         <div className="testimonial-author">
           <img
