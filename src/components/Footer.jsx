@@ -11,7 +11,8 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="footer-container">
+      {/* Upper part hidden as requested */}
+      {/* <div className="footer-container">
         <div className="footer-grid">
           <div className="footer-column">
             <h3 className="footer-heading">Product</h3>
@@ -57,20 +58,16 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div> */}
 
-        <div className="footer-bottom">
-          <div className="footer-logo">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-              <rect width="32" height="32" rx="8" fill="#101828"/>
-              <path d="M12 12L20 20M20 12L12 20" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-            <span className="footer-logo-text">Gläsz</span>
-          </div>
-
-          <p className="footer-copyright">
-            © 2025 Gläsz. All rights reserved.
-          </p>
+      <div className="footer-bottom">
+        <div className="footer-logo">
+          <span className="footer-logo-text">Gläsz</span>
         </div>
+
+        <p className="footer-copyright">
+          © 2025 Gläsz. Todos os direitos reservados.
+        </p>
       </div>
     </footer>
   );

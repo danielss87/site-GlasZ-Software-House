@@ -1,14 +1,13 @@
 .footer {
   width: 100%;
-  padding: 64px 0 48px;
+  padding: 0;
   background: var(--color-gray-50);
-  border-top: 1px solid var(--color-gray-200);
 }
 
 .footer-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-grid {
@@ -52,11 +51,13 @@
 }
 
 .footer-bottom {
-  padding-top: 32px;
+  width: 100%;
+  padding: 32px var(--container-padding);
   border-top: 1px solid var(--color-gray-200);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .footer-logo {

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Testimonial.css';
+import cidaMarcilioImg from '../assets/images/cida-marcilio-oticas-armazem.jpg';
 
 const Testimonial = () => {
   return (
@@ -14,7 +15,7 @@ const Testimonial = () => {
         </blockquote>
         <div className="testimonial-author">
           <img
-            src="data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23D0D5DD'/%3E%3C/svg%3E"
+            src={cidaMarcilioImg}
             alt="Cida Marcílio"
             className="author-avatar"
           />
