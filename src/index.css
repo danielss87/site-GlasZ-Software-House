@@ -44,3 +44,17 @@ body {
     --container-padding: 20px;
   }
 }
+
+/* Remove text decoration from button links */
+a.btn-primary,
+a.btn-primary-header,
+a.btn-secondary {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn-primary:hover,
+a.btn-primary-header:hover,
+a.btn-secondary:hover {
+  text-decoration: none;
+}
